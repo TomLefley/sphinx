@@ -18,7 +18,7 @@ def load_riddles():
     return riddles
 
 def import_code(name,code):
-    import sys,imp
+    import imp
 
     module = imp.new_module(name)
 
